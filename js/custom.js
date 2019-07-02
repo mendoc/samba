@@ -2,10 +2,10 @@ $(function(){
 	'use-strict';
 
 	// sidenav control left
-	$(".sidenav-control").sideNav({
+	/*$(".sidenav-control").sideNav({
 		edge: 'left',
 		closeOnClick: false
-	});
+	});*/
 
 	// panel collapse icon
 	$(document).on("click",".collapsible-header",function(e){
@@ -14,13 +14,13 @@ $(function(){
 	});
 
 	// slick slider
-	$('.slider-slick').slick({
+	/*$('.slider-slick').slick({
 		dots: true,
 		infinite: true,
 		speed: 300,
 		slidesToShow: 1,
 		autoplay: true
-	});
+	});*/
 	
 	// faq collapse icon
 	$(document).on("click",".faq-collapsible",function(e){
@@ -29,11 +29,11 @@ $(function(){
 	});
 
 	// testimonial
-	$("#testimonial").owlCarousel({
+	/*$("#testimonial").owlCarousel({
       	slideSpeed : 300,
       	paginationSpeed : 400,
       	singleItem: true
-  	});
+  	});*/
 
 	// tabs
 	$('ul.tabs').tabs(); 
