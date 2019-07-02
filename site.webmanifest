@@ -14,7 +14,7 @@
         }
     ],
     "theme_color": "#ed1a3b",
-    "background_color": "#ed1a3b",
+    "background_color": "#ffffff",
     "start_url": "https://mendoc.github.io/samba/index.html",
     "display": "standalone"
 }
